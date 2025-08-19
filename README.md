@@ -50,17 +50,19 @@ To create target feature i.e. rul, first we create a health indicator after that
 
 1. Health Indicator: Develop non-liner formula, these create curve start with one and decreases to zero that explains how things affect over time.
    
-                                          **h(t)=1+d-exp⁡(a.t^b )**              
+                                          h(t)=1+d-exp⁡(a.t^b )            
 
 2. Now we calculate alpha value
    
-                                                    **α=log⁡(1+d)/t_max**                                    
+                                          α=log⁡(1+d)/t_max                                   
 
  
 3. Conversion of Health Indicator into RUL:
 To get remaining useful life of an engine at each cycle (Thakkar & Chaoui, 2022)  just multiply health indicator with total number of cycles.
 
-                                                     **RUL=h(t)×t_max**                                      
+                                                     RUL=h(t)×t_max
+
+
 
 
 
