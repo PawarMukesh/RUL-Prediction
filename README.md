@@ -47,22 +47,20 @@ In this project we utilize NASA CMAPSS (commercial modular aero propulsion syste
 
 ### TARGET VARIABLE CREATION:
 To create target feature i.e. rul, first we create a health indicator after that covert health indicator into the remaining useful life (rul).Let see how (Thakkar & Chaoui, 2022) proceed to create target variable, 
-Health Indicator: Develop non-liner formula, these create curve start with one and decreases to zero that explains how things affect over time. 
-                                          h(t)=1+d-exp⁡(a.t^b )               
-where,
-	h(t): health indicator ranges from 1 to 0
-	d:  is an initial degradation (constant number)
-	t: present cycle number
-	a and b: coefficients help to control the rate of degradation
-Now we calculate alpha value, 
-                                                       α=log⁡(1+d)/t_max                                     
 
-where,
-	t max: engine failure before maximum cycle 
+1. Health Indicator: Develop non-liner formula, these create curve start with one and decreases to zero that explains how things affect over time.
+   
+                                          **h(t)=1+d-exp⁡(a.t^b )**              
+
+2. Now we calculate alpha value
+   
+                                                    **α=log⁡(1+d)/t_max**                                    
+
  
-**Conversion of Health Indicator into RUL:**
-To get remaining useful life of an engine at each cycle (Thakkar & Chaoui, 2022)  just multiply health indicator with total number of cycles. 
-                                                     RUL=h(t)×t_max                                      
+3. Conversion of Health Indicator into RUL:
+To get remaining useful life of an engine at each cycle (Thakkar & Chaoui, 2022)  just multiply health indicator with total number of cycles.
+
+                                                     **RUL=h(t)×t_max**                                      
 
 
 
