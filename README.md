@@ -1,31 +1,31 @@
 # Remaining Useful Life Prediction of Aircraft Turbofan Engine for Predictive Maintenance Using AI Enabled Prognostics
 
-# Problem Statement: 
+# PROBLEM STATEMENT: 
 Airplane engine can fail without giving any warning which is very costly and dangerous for airlines. Sometimes present maintenance techniques are not able to detect engine problem early. Nowadays prediction of remaining useful life of a turbofan engine is necessary to avoid unexpected failures. It is important to design a predictive maintenance system that can analyze engine data and provide immediate meaningful insights that can helps to the maintenance expert to schedule the maintenance early.     
 
-# Need of This Topic: 
+# NEED OF THIS TOPIC: 
 1. Passenger safety: Predictive maintenance helps maintenance expert to solve all the engine problem early and avoid failure during running flight. Early prediction of engine life helps airline to fix all the problem and keep passenger as well as staff safe.(Azyus, 2022)
 2. Reduce cost: Timely maintenance of aircraft engine support airlines to avoid unwanted expenses.(Mutunga et al., 2019)
 3. Reducing delays: Sometime aircraft are grounded because of unexpected maintenance leads to cancellation and delay in flight. Predictive maintenance helps airline in this situation.
 4. Extension of engine life: Maintenance expert knows about airplane engine condition early. This important information enables them to great choice about how to use aircraft.
 
-# Objectives: 
+# OBJECTIVES: 
 1. To preprocess the dataset by extracting the most important settings and sensor measurement for efficient prediction of remaining useful life.
 2. Design and development of machine learning and deep learning models to predict the remaining useful life of an aircraft turbofan engine.
 3. Evaluation and comparison of state of art machine learning and deep learning algorithms to enhance RUL prediction accuracy and computational speed.
 4. Create strong user interface that offers maintenance expert with actionable insights as well as accurate prognostics data on engine health.
 
-# Challenges in existing system: 
+# CHALLENGES IN EXISTING SYSTME: 
 1. Data Understanding: Multi-time series data is difficult to understand and extract meaningful patterns from the dataset is complicated.(X. Liu et al., 2023)
 2. Feature Selection: Selection of important features from the dataset is difficult because of sensor measurement.(Peng et al., 2022)
 3. Model Overfitting: Overfitting of models occurs because of high dimensional data.(Blstm, 2024)
 4. Computational Cost: Train machine learning and deep learning model with large number of parameters required maximum computational resources.(Mutunga et al., 2019)
 
-# Inputs overview: 
+# INPUT OVERVIEW: 
 * Operational Settings: configuration of engine that helps to control engine operation.
 * Sensor Readings: Multi time series data from multiple sensors. It includes fan temperature, fan and core speed, flow of fuel and different pressure measurement of components.(Blstm, 2024)
 
-# Expected Output:
+# EXPECTED OUTPUT:
 System produces the two main outputs, Remaining useful life and status of engine health. 
 1. Remaining useful life: System predict the numerical value and the unit of RUL is in cycle.
 2. Status of engine health: Divide RUL into three important categories.
@@ -68,7 +68,7 @@ Detect outliers using box plot shown in Fig 7. Handle outliers using different t
 <img width="823" height="1214" alt="image" src="https://github.com/user-attachments/assets/80be8c8a-7358-4ed7-b0b6-3192493bb843" />
 
 
-### **3. 3.	Feature Normalization:**
+### **3. Feature Normalization:**
 Scale features value using minmax scaling because of feature value measured in different units and scales, so we need to transform into the same scale.
 
 # FEATURE ENGINEERING
